@@ -67,5 +67,31 @@ print(min(cadenaejemplo))
 
 print("----------------------")
 
-cadena="AEIOU"
+cadena="AEIOU" #reemplaza valores unos por otros
 print(cadena.replace("A","E"))
+
+
+print("----------------------")
+
+cadena = "En un Lugar De La Mancha" #permitir invertir las mayúsculas y
+                                    #minúsculas de la cadena de texto
+print(cadena.swapcase())
+
+print("----------------------")
+
+cadena = "En un Lugar De La Mancha"
+print(cadena.split())
+#permitir convertir una cadena de texto en una
+#lista de elementos que se encuentran separados por espacios en la cadena de
+#texto original.
+
+print("----------------------")
+
+cadena= "31/12/2017"
+print(cadena.split("/"))
+
+'''
+Ampliación de split
+indicándole el carácter que tiene que utilizar
+para separar los elementos de la lista
+'''
