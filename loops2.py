@@ -63,3 +63,10 @@ print("rangos")
 
 list= list(range(1,11))
 print(list)
+
+print("------------------------------------------------")
+
+words = ["apple", "mango", "banana", "orange"]
+for w in words:
+    print(w, len(w))  # me dice la palabra y cuantas letras tiene esa palabra
+    
