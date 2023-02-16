@@ -39,3 +39,60 @@ for element in my_tuple:
     print("Se ejecuta")
 else:
     print("el bucle for ha finalizado")
+
+print("------------------------")
+
+count = 0
+
+while count < 5:
+    print(count)
+    count = count + 1
+else:
+    print(count) # cuneta el 5
+
+print("------------------------")
+
+count = 0
+while count < 5:
+    print(count)
+    count = count + 1
+    if count== 3:
+        print("para en el 3")
+        break
+
+print("------------------------")
+
+count = 0
+while count < 5:
+    if count == 3:
+        continue
+    print(count)
+    count = count + 1
+
+print("------------------------")
+
+numbers = [0, 1, 2, 3, 4, 5]
+
+for number in numbers:
+    print(number)
+
+print("------------------------")
+
+language = "Python"
+
+for letter in language:
+    print(letter)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
