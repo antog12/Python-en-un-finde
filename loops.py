@@ -78,11 +78,10 @@ for number in numbers:
 
 print("------------------------")
 
-language = "Python"
 
+language = 'Python'
 for letter in language:
     print(letter)
-
 
 
 
